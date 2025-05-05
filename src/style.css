@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px
+
+}
+  
+  .body {
+    max-width: 100%;
+    width: 700px;
+    background: url("https://img.freepik.com/free-vector/sunshine-background-poster_1284-9444.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740");
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    animation: lightSweep 20s infinite alternate
+  }
+
+  @keyframes lightSweep {
+    0% { background: url("https://img.freepik.com/free-vector/sunshine-background-poster_1284-9444.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740");}
+    25% { background:url("https://img.freepik.com/free-photo/black-clouds-field_1204-11.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740");}
+    50% { background: url("https://img.freepik.com/free-photo/beautiful-mountains_181624-389.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740");} 
+    75% { background: url("https://img.freepik.com/free-photo/colorful-sky-with-sun-background-mountains-sunset-sunrise_146671-14655.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740"); } /* Light Pinkish */
+    100% { background:url("https://img.freepik.com/free-photo/sunrise_74190-1617.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740"); }
+  }
+  footer {
+    text-align: center;
+  }
+  p strong {
+    color: red;
+  }
+  .city {
+    max-width: 100%;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .search-button {
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100%;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+  }
+  .current-weather .current-temperature .weather-temperature {
+    font-size: 88px;
+    font-weight: bold;
+  }
+   .current-weather .current-temperature .weather-icon{
+    font-size: 50px;
+    font-weight: bold;
+  }
+footer{
+    font-size: 18px;
+    margin-top: 5px;
+  }

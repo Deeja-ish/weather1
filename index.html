@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<body>
+        <div class="body">
+          <header>
+            <form id="form">
+              <input
+                type="search"
+                placeholder="Enter a city.."
+                required
+                class="city"
+                id="city-input"
+              />
+              <input type="submit" value="Search" class="search-button" id="search-button" />
+            </form>
+          </header>
+          <main>
+            <hr />
+            <div class="current-weather">
+              <div>
+                <h1 id="city"></h1>
+                <p class="current-details">
+                  <span id="current-date"></span>, <span id="description"></span> <br />
+                  Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind"></strong>
+                </p>
+              </div>
+              <div class="current-temperature">
+                <span class="weather-icon" id="weather-icon"></span
+                ><span class="weather-temperature" id="weather-temperature"></span
+                ><span class="weather-unit">°C</span>
+              </div>
+            </div>
+          </main>
+          <hr>
+          <footer>
+            <p>
+              This project was coded by
+              <a href="https://github.com/Deeja-ish/" target="_blank">Khadija Ismail</a> and is
+              <a href="https://github.com/Deeja-ish/weather1.git" target="_blank"> on GitHub</a> and
+              <a href="" target="_blank">hosted on Netlify</a>
+            </p>
+          </footer>
+        </div>
+        <script src="src/index.js"></script>
+</body>
+</html>
